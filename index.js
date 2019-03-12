@@ -5,7 +5,9 @@ let score = 0;
 function generateQuestion () {
   if (questionNumber < STORE.length) {
     return `<div class="question-${questionNumber}">
+    <div class="centerContainer">
     <h2 class="pumpQuestions">${STORE[questionNumber].question}</h2>
+    </div>
     <form class="questionForm">
     <fieldset>
     <label class="answerOption">

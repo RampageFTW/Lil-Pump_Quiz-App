@@ -16,8 +16,10 @@ body {
 }
 
 .intro {
-  color: #8bfff0;
+  color: #cc45a7;
   margin-bottom: 30px;
+  background-color: #1e2633;
+  padding: 5px 15px;
 }
 .questionNumberColor {
 color: 	#204030;
@@ -61,6 +63,22 @@ fieldset {
   border: 0px;
 }
 
+label:nth-child(1) {
+  background-color: rgb(14, 29, 53)
+}
+label:nth-child(2) {
+  background-color: rgb(175, 167, 56)
+}
+label:nth-child(3) {
+  background-color: rgb(56, 175, 82)
+}
+label:nth-child(4) {
+  background-color: rgb(165, 56, 175)
+}
+label:nth-child(5) {
+  background-color: rgb(175, 56, 56)
+}
+
 .answerOption {
   background-color: none;
   border: none;
@@ -69,7 +87,7 @@ fieldset {
   font-size: 30px;
   text-transform: uppercase;
   cursor: pointer;
-  color: #8bfff0;
+  color: #2e2ad2;
 }
 
 .quizStart {
@@ -80,20 +98,21 @@ fieldset {
 }
 
 .questionFont {
-  font-size: 33px;
   position: absolute;
   bottom: 0;
   left: 30;
   width: 11%;
-  list-style: none;
 }
 
 .scoreFont {
-  font-size: 33px;
   position: absolute;
   bottom: 0;
   right: 0;
   width: 8%;
+}
+
+.scoreQuestion {
+  font-size: 33px;
   list-style: none;
 }
 
@@ -102,6 +121,8 @@ fieldset {
   text-align: center;
   font-size: 40px;
   margin-bottom: 30px;
+  background-color: black;
+  padding: 5px 15px;
 }
 
 .startButton:hover {
@@ -189,17 +210,35 @@ h3 {
 @media screen and (max-width: 1190px) {
   .questionAnswerForm,
   .quizStart {
-      width: 80%;
+      width: 100%;
       margin-bottom: 100px
   }
+  .scoreFont {
+    font-size: 40px;
+    position: absolute;
+    bottom: 410px;
+    right: 200px;
+    display: flex;
+  }
+  .questionFont {
+    font-size: 40px;
+    bottom: 410px;
+    left: 30px;
+    display: flex;
+  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1189px) {
   .logo {
       width: 120px;
       height: 120px;
       display: block;
       margin: auto;
   }
+  .intro {
+    margin-bottom: -165px;
+    margin-top: 60px;
+  }
+
   header ul {
       margin: 10px;
       text-align: center
@@ -223,12 +262,25 @@ h3 {
   .questionAnswerForm {
       width: 100%;
       padding: 20px;
-      margin-top: 0
+      margin-top: 0;
+      font-size: 22px;
   }
   label {
       font-size: 16px;
-      padding: 15px
+      padding: 15px;
+      margin-bottom: 10px;
+      display: flex;
+      color: #ffffff;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+      line-height: 22px;
   }
+
+  input[type=radio] {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
   .correctFeedback img {
       width: 100px;
       height: auto
@@ -242,5 +294,34 @@ h3 {
   }
   h3 {
       font-size: 25px
+  }
+  .scoreFont {
+    font-size: 30px;
+    position: absolute;
+    bottom: 50px;
+    right: 130px;
+    display: flex;
+  }
+  .questionFont {
+    font-size: 30px;
+    bottom: 50px;
+    left: 30px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .scoreFont {
+    font-size: 16px;
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+    display: flex;
+  }
+  .questionFont {
+    font-size: 16px;
+    bottom: 50px;
+    left: 30px;
+    display: flex;
   }
 }

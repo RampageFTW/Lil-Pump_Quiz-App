@@ -168,7 +168,8 @@ label:nth-child(5) {
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
-  border-radius: 4px
+  border-radius: 4px;
+  #8080801f
 }
 
 .correctFeedback button:hover {
@@ -177,11 +178,11 @@ label:nth-child(5) {
 }
 
 .correctFeedback p {
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 1.5em;
   text-transform: uppercase;
   margin-left: 20px;
-  margin-right: 20px
+  margin-right: 20px;
 }
 .correctFeedback span {
   color: #AF6438;
@@ -193,12 +194,10 @@ label:nth-child(5) {
   border-radius: 3px;
   margin: auto;
   padding: 10px;
-  margin-bottom: 20px
 }
 h3 {
   color: #AF6438;
   font-size: 40px;
-  margin-bottom: 20px;
 }
 .results img {
   width: 150px;
@@ -206,15 +205,15 @@ h3 {
 }
 .results p:first-of-type {
   font-size: 25px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 .results p {
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 .restartButton {
-  margin-top: 40px
+  margin-top: 10px;
 }
 @media screen and (max-width: 1190px) {
   .questionAnswerForm,
@@ -256,7 +255,7 @@ h3 {
 
   header ul {
       margin: 10px;
-      text-align: center
+      text-align: center;
   }
   h1 {
       font-size: 15px
@@ -269,10 +268,10 @@ h3 {
   .quizStart {
       width: 100%;
       padding: 40px;
-      margin-top: 0
+      margin-top: 0;
   }
   h2 {
-      font-size: 18px
+      font-size: 18px;
   }
   .questionAnswerForm {
       width: 100%;
@@ -302,13 +301,13 @@ h3 {
   }
   .correctFeedback p {
       font-size: 16px;
-      margin: 0 15px
+      margin: 0 15px;
   }
   .results p:first-of-type {
-      font-size: 18px
+      font-size: 18px;
   }
   h3 {
-      font-size: 25px
+      font-size: 25px;
   }
   .scoreFont {
     font-size: 30px;
@@ -331,7 +330,7 @@ h3 {
     justify-content: space-between;
     margin-left: -30px;
     margin-right: -55px;
-    bottom: 70;
+    bottom: 70px;
   }
   .scoreFont {
     left: auto;

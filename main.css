@@ -22,11 +22,13 @@ body {
   padding: 5px 15px;
 }
 .questionNumberColor {
-color: 	#204030;
+  color: #215f84;
+  background-color: #c39923;
 }
 
 .scoreNumberColor {
   color: #a11826;
+  background-color: #1e2633;
 }
 
 .startButton {
@@ -328,5 +330,12 @@ h3 {
     justify-content: space-between;
     margin-left: -30px;
     margin-right: -40px;
+    bottom: 15px;
+  }
+  .scoreFont {
+    left: auto;
+  }
+  .questionFont {
+    right: auto;
   }
 }

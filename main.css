@@ -159,7 +159,7 @@ label:nth-child(5) {
   background: linear-gradient(to right bottom, rgb(181, 234, 255) 0%, rgb(255, 190, 190) 100%);
   border-radius: 6px;
   padding: 12px;
-  max-width: 300px;
+  max-width: 200px;
 }
 .correctFeedback button {
   width: 30%;

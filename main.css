@@ -87,7 +87,7 @@ label:nth-child(5) {
   background-color: none;
   border: none;
   padding: 5px;
-  font-size: 30px;
+  font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
   color: #2e2ad2;
@@ -125,8 +125,8 @@ label:nth-child(5) {
 .pumpQuestions {
   color: #d48080;
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 30px;
+  font-size: 20px;
+  margin-bottom: 15px;
   background-color: black;
   padding: 5px 15px;
 }
@@ -149,6 +149,7 @@ label:nth-child(5) {
 .questionAnswerForm {
   display: none;
   max-width: 800px;
+  clear: both;
 }
 
 .correctFeedback {

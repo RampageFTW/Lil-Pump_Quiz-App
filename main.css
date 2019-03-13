@@ -61,6 +61,7 @@ color: 	#204030;
 
 fieldset {
   border: 0px;
+  display: flex;
 }
 
 label:nth-child(1) {
@@ -82,7 +83,6 @@ label:nth-child(5) {
 .answerOption {
   background-color: none;
   border: none;
-  margin-right: 13px;
   padding: 5px;
   font-size: 30px;
   text-transform: uppercase;
@@ -145,6 +145,7 @@ label:nth-child(5) {
 
 .questionAnswerForm {
   display: none;
+  max-width: 800px;
 }
 
 .correctFeedback {
@@ -154,6 +155,7 @@ label:nth-child(5) {
   background: linear-gradient(to right bottom, rgb(181, 234, 255) 0%, rgb(255, 190, 190) 100%);
   border-radius: 6px;
   padding: 12px;
+  max-width: 300px;
 }
 .correctFeedback button {
   width: 30%;
@@ -214,7 +216,11 @@ h3 {
   .questionAnswerForm,
   .quizStart {
       width: 100%;
-      margin-bottom: 100px
+      margin-bottom: 100px;
+  }
+
+  .questionAnswerForm {
+    max-width: 800px;
   }
   .scoreFont {
     font-size: 40px;
@@ -232,9 +238,7 @@ h3 {
   .scoreQuestion {
     display: inline-block;
   }
-
-}
-@media screen and (max-width: 1189px) {
+  
   .logo {
       width: 120px;
       height: 120px;
@@ -251,7 +255,7 @@ h3 {
       text-align: center
   }
   h1 {
-      font-size: 1.5em
+      font-size: 15px
   }
   header ul li {
       padding: 10px;
@@ -289,8 +293,8 @@ h3 {
     margin-right: 10px;
 }
   .correctFeedback img {
-      width: 100px;
-      height: auto
+      width: 100%;
+      height: auto;
   }
   .correctFeedback p {
       font-size: 16px;
@@ -317,7 +321,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .scoreQuestion {
     font-size: 20px;
     justify-content: space-between;

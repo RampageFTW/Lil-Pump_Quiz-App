@@ -338,4 +338,8 @@ h3 {
   .questionFont {
     right: auto;
   }
+  .logo {
+    width: 60px;
+    height: 60px;
+}
 }

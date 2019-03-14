@@ -205,7 +205,7 @@ h3 {
   font-size: 40px;
 }
 .results img {
-  width: 150px;
+  width: 100%;
   height: auto;
 }
 .results p:first-of-type {

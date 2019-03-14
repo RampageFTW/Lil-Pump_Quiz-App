@@ -124,7 +124,7 @@ function renderResults () {
   } else if (score < 8 && score >= 5) {
     $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You're a lil pump fan</h3><img src="https://media.giphy.com/media/3o6ZsTV4zTpiQYsKg8/giphy.gif" alt="lil pump fan"/><p>You got ${score} / 10</p><p>Join Harverd University to be as smart as Lil Pump</p><button class="restartButton">Restart Quiz</button></div>`);
   } else {
-    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Lil Pump does not care about you!</h3><img src="https://media.giphy.com/media/3o6MbiyEJnfz9guzu0/giphy.gif" alt="pump laughing"/><p>You got ${score} / 10</p><p>You seems like a Icy Narco fan</p><button class="restartButton">Restart Quiz</button></div>`);
+    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Lil Pump does not care about you!</h3><img src="https://media.giphy.com/media/3o6MbiyEJnfz9guzu0/giphy.gif" alt="pump laughing"/><p>You got ${score} / 10</p><p>You seem like a Icy Narco fan</p><button class="restartButton">Restart Quiz</button></div>`);
   }
 }
 

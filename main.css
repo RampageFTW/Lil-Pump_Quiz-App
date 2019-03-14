@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: auto;
 }
 html {
   background: url('images/gettyimages-1011299144-1024x1024.jpg') no-repeat center center fixed; 
@@ -121,6 +122,7 @@ label:nth-child(5) {
   font-size: 33px;
   list-style: none;
   display: inline-block;
+  bottom: 0px;
 }
 
 .pumpQuestions {
@@ -240,6 +242,7 @@ h3 {
   }
   .scoreQuestion {
     display: inline-block;
+    bottom: 0px;
   }
   
   .logo {
@@ -312,13 +315,13 @@ h3 {
   .scoreFont {
     font-size: 30px;
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
     right: 130px;
     display: flex;
   }
   .questionFont {
     font-size: 30px;
-    bottom: 50px;
+    bottom: 0px;
     left: 30px;
     display: flex;
   }
@@ -330,7 +333,7 @@ h3 {
     justify-content: space-between;
     margin-left: -30px;
     margin-right: -55px;
-    bottom: 70px;
+    bottom: 0px;
   }
   .scoreFont {
     left: auto;

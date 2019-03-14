@@ -21,6 +21,7 @@ body {
   margin-bottom: 30px;
   background-color: #1e2633;
   padding: 5px 15px;
+  border-radius: 7px;
 }
 .questionNumberColor {
   color: #215f84;
@@ -123,6 +124,8 @@ label:nth-child(5) {
   list-style: none;
   display: inline-block;
   bottom: 0px;
+  padding: 0px 5px;
+  border-radius: 3px;
 }
 
 .pumpQuestions {
@@ -233,6 +236,8 @@ h3 {
     bottom: 410px;
     right: 0px;
     display: flex;
+    padding: 0px 5px;
+    border-radius: 3px;
   }
   .questionFont {
     font-size: 40px;
@@ -332,6 +337,8 @@ h3 {
     font-size: 20px;
     justify-content: space-between;
     bottom: 0px;
+    padding: 0px 5px;
+    border-radius: 3px;
   }
   .scoreFont {
     left: auto;

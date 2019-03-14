@@ -91,6 +91,7 @@ label:nth-child(5) {
   text-transform: uppercase;
   cursor: pointer;
   color: #2e2ad2;
+  display: inline-block;
 }
 
 .quizStart {
@@ -159,7 +160,7 @@ label:nth-child(5) {
   background: linear-gradient(to right bottom, rgb(181, 234, 255) 0%, rgb(255, 190, 190) 100%);
   border-radius: 6px;
   padding: 12px;
-  max-width: 200px;
+  max-width: 274px;
 }
 .correctFeedback button {
   width: 30%;
@@ -169,7 +170,6 @@ label:nth-child(5) {
   font-weight: 600;
   cursor: pointer;
   border-radius: 4px;
-  #8080801f
 }
 
 .correctFeedback button:hover {
@@ -223,7 +223,7 @@ h3 {
   }
 
   .questionAnswerForm {
-    max-width: 800px;
+    max-width: 324px;
   }
   .scoreFont {
     font-size: 40px;

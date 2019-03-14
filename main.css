@@ -5,7 +5,7 @@
   height: auto;
 }
 html {
-  background: url('images/gettyimages-1011299144-1024x1024.jpg') no-repeat center center fixed; 
+  background: url('https://media.gettyimages.com/photos/lil-pump-performs-at-lollapalooza-2018-at-grant-park-on-august-4-2018-picture-id1011299144') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -170,7 +170,7 @@ label:nth-child(5) {
 .correctFeedback button {
   width: 30%;
   border: none;
-  background: none;
+  background: #ddd;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
